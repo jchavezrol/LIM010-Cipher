@@ -5,6 +5,7 @@ El progrma permite obtener la declaracion de un testigo protegido y su Abogado, 
 - Los usuarios del programa *CONFIDENCIAL* son Abogados y testigos protegidos
 
 - Para este caso en particular los testigos protegidos por su misma condición, no se exponen y este programa hará que la comunicación sea directa y la declaración llegue a buenas manos
-
+## Prototipo en papel:
+![Prototipo en papel](imagenes/prototipo.png "Prototipo en papel")
 
 
