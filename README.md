@@ -18,7 +18,7 @@ El progrma permite obtener la declaracion de un testigo protegido y su Abogado, 
  [1]: imagenes/1.png
  [2]: imagenes/2.png
  [3]: imagenes/3.png
- [4]: imagenes/4.png "4"
+ [4]: imagenes/4.png 
 
 
 
