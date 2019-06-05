@@ -2,12 +2,43 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Confidencial</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+             
+    <header><h1 class="titulo">¡BIENVENIDO!</h1>
+    </header>
+    
+    <main>
+        <div id="acceso" >
+                <input id="clave" type="password" placeholder="Ingresa aqui tu contraseña" maxlength="11"> 
+                <button id="ingresar" type="button" onclick="greet();">Ingresar</button>
+        </div> 
+
+        <div id="cifrar">
+              <h2>Ingresar el texto:</h2>
+              <input id="declaracion" type="text" placeholder="Ingresa el texto a cifrar odescifrar segun sea el caso.">
+              <br>
+              <form >
+
+                <p>
+              
+                  Elegir Opcion:<br>
+              
+                  <input type="radio" name="Elegir Opcion" value="Cifrar"> Cifrar<br>
+                  <input type="radio" name="Elegir Opcion" value="Descifrar"> Descifrar<br>
+              
+                  
+              
+                </p>
+              
+                <p><input type="submit" value="Enviar datos"></p>
+              
+              </form>
+        </div>
+            
+    </main>
     <footer></footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

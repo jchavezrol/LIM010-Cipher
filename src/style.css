@@ -1,1 +1,28 @@
 /* Acá van tus reglas de estilo */
+body{
+    background-image:url( "../imagenes/fondo.jpg");
+    background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+}
+
+.titulo{
+        color: white;
+        font: outline;
+}
+
+.titulo1{
+    color: white;
+
+}
+input{
+    align-self: center;
+    float: left;
+    padding: 0px;
+    margin-left: 20px;
+  }
+
+  #cifrar{
+      display: none;
+  }
