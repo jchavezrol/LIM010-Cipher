@@ -12,35 +12,44 @@
     
     <main>
         <div id="acceso" >
-                <input id="clave" type="password" placeholder="Ingresa aqui tu contraseña" maxlength="11"> 
-                <button id="ingresar" type="button" onclick="greet();">Ingresar</button>
+                <img src="../imagenes/ingreso.jpg" alt="">
+                 <h2>Ingresa la contraseña</h2>
+                <input id="clave" type="password" placeholder="Ingresa aqui tu contraseña" maxlength="11">
+                <br><br>
+                <button id="ingresar" type="button" id="btn">Ingresar</button>
         </div> 
 
-        <div id="cifrar">
-              <h2>Ingresar el texto:</h2>
+        <div id="ingreso">
+              <h3>Ingresar el texto:</h3>
               <p><textarea name="mensaje" placeholder="Ingresa el texto a cifrar o descifrar según sea el caso." cols="100" rows="20"></textarea></p>
-                         
               <br>
               <form >
-
                 <p>
-              
                   Elegir Opcion:<br>
-              
                   <input type="radio" name="Elegir Opcion" value="Cifrar"> Cifrar<br>
                   <input type="radio" name="Elegir Opcion" value="Descifrar"> Descifrar<br>
-              
-                  
-              
                 </p>
-              
-                <p><input type="submit" value="Enviar datos"></p>
-              
+                <p><button id="Inicio" type="button" onclick="greet();">Iniciamos</button></p>
               </form>
         </div>
+
+        <div id="cifrado">
+          <h4>El Texto Cifrado es:</h4>
+          <p><textarea name="mensaje" placeholder="Aqui aparece el texto cifrado o descifrado según sea el caso." cols="100" rows="20"></textarea></p>
+              <br>
+              <p><button id="cifrado" type="button" onclick="greet();">Listo!</button></p>
+        </div>
+
+        <div id="final">
+            <h3>Gracias</h3>
+            <h4>Tu infromacion esta segura</h4>
             
-    </main>
-    <footer></footer>
+            
+          </div>
+
+      </main>
+    
+      <footer></footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

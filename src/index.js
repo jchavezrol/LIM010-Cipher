@@ -1,5 +1,6 @@
 /* Acá va tu código */
-const clave = document.getElementById("clave");
+const btn = document.getElementById("btn");
+btn.addEventListener('click', ()=>{})
 const clave =document.getElementById("ingresar");
 
 

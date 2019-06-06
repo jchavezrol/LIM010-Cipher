@@ -1,7 +1,7 @@
-/* Acá van tus reglas de estilo */
-body{
+    /* Acá van tus reglas de estilo */
+body{                       
     background-image:url( "../imagenes/fondo.jpg");
-    background-size: cover;
+    background-size: cover; 
         -moz-background-size: cover;
         -webkit-background-size: cover;
         -o-background-size: cover;
@@ -10,7 +10,16 @@ body{
 .titulo{
         color: white;
         font: outline;
+        text-align: center;
 }
+#acceso{
+    
+    text-align: center;
+    color: white;
+    
+}
+    
+
 
 .titulo1{
     color: white;
@@ -23,6 +32,15 @@ input{
     margin-left: 20px;
   }
 
-  #cifrar{
-      
+  #acceso{
+      display: block;
   }
+  #ingreso{
+      display: none;
+  }
+#cifrado{
+    display: none;
+}
+#final{
+    display: none;
+}
