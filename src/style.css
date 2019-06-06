@@ -5,6 +5,7 @@ body{
         -moz-background-size: cover;
         -webkit-background-size: cover;
         -o-background-size: cover;
+        text-align: center;
 }
 
 .titulo{
@@ -13,28 +14,18 @@ body{
         text-align: center;
 }
 #acceso{
-    
     text-align: center;
     color: white;
-    
+    text-transform: uppercase;
+       
 }
-    
-
 
 .titulo1{
     color: white;
 
 }
-input{
-    align-self: center;
-    float: left;
-    padding: 0px;
-    margin-left: 20px;
-  }
 
-  #acceso{
-      display: block;
-  }
+  
   #ingreso{
       display: none;
   }
@@ -43,4 +34,10 @@ input{
 }
 #final{
     display: none;
+    background-color: black;
+    text-align: center;
+    }
+.h3 .h4{
+    color: white;
 }
+

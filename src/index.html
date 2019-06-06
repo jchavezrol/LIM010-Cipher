@@ -12,11 +12,11 @@
     
     <main>
         <div id="acceso" >
-                <img src="../imagenes/ingreso.jpg" alt="">
+                <img src="../imagenes/ingreso.jpg" alt="" width="350" height="350"/>
                  <h2>Ingresa la contraseña</h2>
-                <input id="clave" type="password" placeholder="Ingresa aqui tu contraseña" maxlength="11">
+                <input id="clave" type="password" case placeholder="Ingresa aqui tu contraseña" maxlength="11">
                 <br><br>
-                <button id="ingresar" type="button" id="btn">Ingresar</button>
+                <button  type="button" id="btn">Ingresar</button>
         </div> 
 
         <div id="ingreso">
@@ -26,8 +26,8 @@
               <form >
                 <p>
                   Elegir Opcion:<br>
-                  <input type="radio" name="Elegir Opcion" value="Cifrar"> Cifrar<br>
-                  <input type="radio" name="Elegir Opcion" value="Descifrar"> Descifrar<br>
+                  <input type="radio" name="Elegir Opcion" value="Cifrar"> Cifrar <br><input type="number" name="offset1" maxlength="1">
+                  <input type="radio" name="Elegir Opcion" value="Descifrar"> Descifrar<br> <input type="number" name="offset2" maxlength="1">
                 </p>
                 <p><button id="Inicio" type="button" onclick="greet();">Iniciamos</button></p>
               </form>
@@ -42,6 +42,7 @@
 
         <div id="final">
             <h3>Gracias</h3>
+            <img src="../imagenes/infosegura.jpg" alt="" width="350" height="350"/>
             <h4>Tu infromacion esta segura</h4>
             
             
