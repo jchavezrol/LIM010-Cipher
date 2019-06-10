@@ -1,26 +1,45 @@
 // tomandodo el click
-const btn = document.getElementById("btn");
+const clickBtn = document.getElementById("btn");
 //tomando lo que ingresa el usuario 
 const clave = document.getElementById("clave");
-const intentos = 0;
 
-btn.addEventListener('click', ()=>{
-    if(clave.value == "LABORATORIA" ){
-      document.getElementById('acceso').style.display = 'none';
-      document.getElementById('ingreso').style.display='block';
-}
-    else if (clave.value != "LABORATORIA"){
-    if(intentos.value=intentos+1){
-         alert('¡Error!, te quedan 2 intentos');
-    }
-    else if (intentos.value=intentos+2){
-        alert('¡Error!, te queda 1 intento');
-    }
-      else (intentos.value=intentos+3){
-        alert('Ya utilizaste todos tus intentos, en este momento, no podrás seguir');    
-  }
-}
+const clickIngresar = document.getElementById("ingresar");
+const clickCifrado = document.getElementById("cifrado")
+
+let intentos = 2;
+
+btn.addEventListener("click", ()=>{
+    if(clave.value =="LABORATORIA" ){
+      document.getElementById("acceso").classList.add("ocultar");
+      document.getElementById("ingreso").classList.remove("ocultar");
+      
+    } else if(intentos ==0){
+       alert("Ya utilizaste todos tus intentos, en este momento, no podrás seguir.");
+     }
+     else{
+        alert("Clave incorrecta, te quedan "+ intentos + " intentos");
+        intentos= intentos-1;
+      }
 });
+
+clickIngresar.addEventListener("click", () =>{
+      document.getElementById("acceso").classList.add("ocultar");
+      document.getElementById("ingreso").classList.add("ocultar");
+      document.getElementById("cifrado").classList.remove("ocultar");
+      document.getElementById("final").classList.add("ocultar");
+})
+
+clickCifrado.addEventListener("click", ()=>{
+  document.getElementById("acceso").classList.add("ocultar");
+  document.getElementById("ingreso").classList.add("ocultar");
+  document.getElementById("cifrado").classList.add("ocultar");
+  document.getElementById("final").classList.remove("ocultar");
+})
+
+
+
+
+
 
 
 

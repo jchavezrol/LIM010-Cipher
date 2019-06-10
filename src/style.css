@@ -10,28 +10,14 @@ body{
 .titulo{
         color: white;
         font: outline;
-        text-align: center;
+        text-align: left;
+        font-size: small;
 }
 #acceso{
     text-align: center;
-    color: white;
-    text-transform: uppercase;
-       
-}
-
-.titulo1{
-    color: white;
-
-}
-  #ingreso{
-      display: none;
-  }
-#cifrado{
-    display: none;
+    color: white;     
 }
 #final{
-    display: none;
-    background-color: black;
     text-align: center;
     }
 .h3 .h4{
@@ -39,4 +25,7 @@ body{
 }
 #pie{
     color: white;
+}
+.ocultar{
+    display: none;
 }
