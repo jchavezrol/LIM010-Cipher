@@ -7,7 +7,6 @@ body{
         -o-background-size: cover;
         text-align: center;
 }
-ff
 .titulo{
         color: white;
         font: outline;
@@ -24,8 +23,6 @@ ff
     color: white;
 
 }
-
-  
   #ingreso{
       display: none;
   }
@@ -40,4 +37,6 @@ ff
 .h3 .h4{
     color: white;
 }
-
+#pie{
+    color: white;
+}
