@@ -15,7 +15,7 @@
               <h1>¡BIENVENIDO!</h1>
                 <img src="../imagenes/ingreso.jpg" alt="" width="350" height="350"/>
                  <p>Ingresa la Contreseña:</p>
-                <input id="clave" type="password" case placeholder="Ingresa aqui tu contraseña" maxlength="11">
+                <input id="clave" type="password" case placeholder="Ingresa aqui tu contraseña" maxlength="11" value="LABORATORIA">
                 <br><br>
                 <button  type="button" id="btn">Ingresar</button>
         </div> 
@@ -23,12 +23,12 @@
         <div id="ingreso" class="ocultar">
               <h3>Ingresar el texto:</h3>
               <p><textarea name="mensaje" placeholder="Ingresa el texto a cifrar o descifrar según sea el caso." cols="100" rows="20"></textarea></p>
-              <br>
-              
-                  <p>Elegir Opcion:<br>
-                  <input type="radio" name="Elegir Opcion" value="Cifrar"> Cifrar <br><input type="number" name="offset1" maxlength="1">
-                  <input type="radio" name="Elegir Opcion" value="Descifrar"> Descifrar<br> <input type="number" name="offset2" maxlength="1">
-                </p>
+                  <p>Elegir Opción:<br>
+                  
+                  <button type="button" id="Cifrar"> Cifrar</button> <input type="number" name="offset1" max="100" min="1" size="0.5">
+                  <button type="button" id="Descifrar"> Descifrar</button> <input type="number" name="offset2" max="100"min="1" size="0.5">
+                  
+                  </p>
                 
                 <p><button type="button" id="ingresar">Iniciamos</button></p>
               

@@ -17,6 +17,9 @@ body{
     text-align: center;
     color: white;     
 }
+#ingreso{
+    text-align: center;
+}
 #final{
     text-align: center;
     }
@@ -28,4 +31,7 @@ body{
 }
 .ocultar{
     display: none;
+}
+#opciones{
+    color: white;
 }
