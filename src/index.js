@@ -58,6 +58,8 @@ clickDescifrar.addEventListener("click", ()=>{
 
 /* cifrado */
 
+let string= "A";
+string.charCodeAt(0);
 
 
 
