@@ -15,26 +15,25 @@
               <h1>¡BIENVENIDO!</h1>
                 <img src="../imagenes/ingreso.jpg" alt="" width="350" height="350"/>
                  <p>Ingresa la Contreseña:</p>
-                <input id="clave" type="password" case placeholder="Ingresa aqui tu contraseña" maxlength="11" value="LABORATORIA">
+                <input id="clave" type="password" case placeholder="Ingresa aqui tu contraseña" maxlength="11"  value="LABORATORIA">
                 <br><br>
                 <button  type="button" id="btn">Ingresar</button>
         </div> 
 
         <div id="ingreso" class="ocultar">
               <h3>Ingresar el texto:</h3>
-              <p><textarea name="mensaje" placeholder="Ingresa el texto a cifrar o descifrar según sea el caso." cols="100" rows="20"></textarea></p>
+              <p><textarea id="mensaje1" name="texto1" placeholder="Ingresa el texto a cifrar o descifrar según sea el caso." cols="100" rows="20"></textarea></p>
                   
               <p>Elegir Opción:</p>
-                  <input type="number" name="offset1" max="100" min="1" size="0.5"> <button type="button" id="Cifrar"> Cifrar</button> 
-                  <input type="number" name="offset2" max="100" min="1" size="0.5"> <button type="button" id="Descifrar"> Descifrar</button> 
-              <p><button type="button" id="ingresar">Iniciamos</button></p>
-          </div>
+                  <input type="number" id ="offset1" max="100" min="1" size="0.5"> <button type="button" id="cifrar"> Cifrar</button> 
+                  <input type="number" id ="offset2" max="100" min="1" size="0.5"> <button type="button" id="Descifrar"> Descifrar</button> 
+        </div>
 
         <div id="cifrado" class="ocultar">
           <p>El Texto Cifrado es:</p>
-          <textarea name="mensaje" placeholder="Aqui aparece el texto cifrado o descifrado según sea el caso." cols="100" rows="20"></textarea>
+          <textarea id="mensaje2"name="texto2" placeholder="Aqui aparece el texto cifrado o descifrado según sea el caso." cols="100" rows="20"></textarea>
               <br>
-              <p><button type="button" id="cifrado">Listo!</button></p>
+              <p><button type="button" id="listo">Listo!</button></p>
         </div>
 
         <div id="final" class="ocultar">
