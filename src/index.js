@@ -4,8 +4,10 @@ const clickBtn = document.getElementById("btn");
 const clave = document.getElementById("clave");
 
 const clickIngresar = document.getElementById("ingresar");
-const clickCifrado = document.getElementById("cifrado")
+const clickCifrado = document.getElementById("cifrado");
 
+const clickCifrar = document.getElementById("Cifrar");
+const clickDescifrar = document.getElementById("Descifrar");
 
 
 let intentos = 2;
@@ -40,6 +42,19 @@ clickCifrado.addEventListener("click", ()=>{
   document.getElementById("final").classList.remove("ocultar");
 })
 
+clickCifrar.addEventListener("click", ()=>{
+  document.getElementById("acceso").classList.add("ocultar");
+  document.getElementById("ingreso").classList.add("ocultar");
+  document.getElementById("cifrado").classList.remove("ocultar");
+  document.getElementById("final").classList.add("ocultar");
+})
+
+clickDescifrar.addEventListener("click", ()=>{
+  document.getElementById("acceso").classList.add("ocultar");
+  document.getElementById("ingreso").classList.add("ocultar");
+  document.getElementById("cifrado").classList.remove("ocultar");
+  document.getElementById("final").classList.add("ocultar");
+})
 
 /* cifrado */
 
