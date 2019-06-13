@@ -11,43 +11,33 @@ body{
         color: white;
         font: outline;
         text-align: left;
-        font-size: large;
-        font-family: cursive;
+        font-family: sans-serif;
+        font-size: smaller;
 }
 #acceso{
     text-align: center;
     color: white;     
-    font-family: cursive;
-    font-size: large;
+    font-family: 150% sans-serif;
 }
 #ingreso{
     text-align: center;
     color: white;
-    font-family: cursive;
-    font-size: large;
+    font-family: 150% sans-serif;
 }
 #cifrado{
     color: white;
-    font-family: cursive;
-    font-size: small;
+    font-family: 150% sans-serif;
 }
-}
-#final{
-    color: white;
-    text-align: center;
-    font-family: cursive;
-    font-size: large;
-    }
 #pie{
     color: white;
-    font-family: cursive;
-    font-size: small;
+    font-family: 150 % sans-serif;
+    
 }
 .ocultar{
     display: none;
 }
 #opciones{
     color: white;
-    font-family: cursive;
-    font-size: large;
+    font-family: sans-serif;
+
 }
