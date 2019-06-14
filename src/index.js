@@ -42,8 +42,8 @@ const coffset2 = document.getElementById("offset2");
 
 clickCifrar.addEventListener("click", ()=>{
  
-  //console.log(cipher.encode(coffset1.value,smensaje1.value));
   smensaje2.value=cipher.encode(coffset1.value,smensaje1.value);
+
   document.getElementById("acceso").classList.add("ocultar");
   document.getElementById("ingreso").classList.add("ocultar");
   document.getElementById("cifrado").classList.remove("ocultar");
@@ -51,9 +51,11 @@ clickCifrar.addEventListener("click", ()=>{
 });
 
 //de ingreso a cifrado para descifrar
+//además se hace ek descifrado
 clickDescifrar.addEventListener("click", ()=>{
 
-  smensaje2.value=cipher.decode(coffset2.value,smensaje2.value);
+
+  smensaje2.value=cipher.decode(coffset2.value,smensaje1.value);
 
   document.getElementById("acceso").classList.add("ocultar");
   document.getElementById("ingreso").classList.add("ocultar");

@@ -29,7 +29,7 @@ body{
     font-size: 20px;
 }
 .opcion{
-    font-family: 150 % sans-serif;
+    font-family: 150% sans-serif;
     font-size: 25px;
 }
 #cifrado{
@@ -47,24 +47,24 @@ body{
 }
 .gracias{
     color: white;
-    font-family: 150 % sans-serif;
+    font-family: 150% sans-serif;
     font-size: 35px;
 }
 .segura{
     color:blue;
-    font-family: 150 % sans-serif;
+    font-family: 150% sans-serif;
     font-size: 35px;
 }
 #pie{
     color: black;
-    font-family: 150 % sans-serif;
+    font-family: 150% sans-serif;
     
 }
 .ocultar{
     display: none;
 }
 #opciones{
-    color: blue
+    color: blue;
     font-family: sans-serif;
 }
 .texto1{
