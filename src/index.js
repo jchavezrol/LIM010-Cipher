@@ -1,5 +1,6 @@
 // tomandodo el click
 const clickBtn = document.getElementById("btn");
+
 //tomando lo que ingresa el usuario 
 const clave = document.getElementById("clave");
 
@@ -8,6 +9,7 @@ const clickCifrado = document.getElementById("cifrado");
 const clickCifrar = document.getElementById("cifrar");
 const clickDescifrar = document.getElementById("Descifrar");
 const clicklisto = document.getElementById("listo");
+
 //se declara la variable para los intentos al ingresar PASSWORD
 let intentos = 2;
 
@@ -33,15 +35,15 @@ clickBtn.addEventListener("click", ()=>{
 const smensaje1 = document.getElementById("mensaje1");
 const coffset1 = document.getElementById("offset1");
 const smensaje2 = document.getElementById("mensaje2");
-const doffset2 = document.getElementById("offset2");
+const coffset2 = document.getElementById("offset2");
 
 //De la pagina ingreso a la pagina decifrado
 // ademas capturar el cifrado 
 
 clickCifrar.addEventListener("click", ()=>{
  
-  console.log(cipher.encode(coffset1.value,smensaje1.value));
-
+  //console.log(cipher.encode(coffset1.value,smensaje1.value));
+  smensaje2.value=cipher.encode(coffset1.value,smensaje1.value);
   document.getElementById("acceso").classList.add("ocultar");
   document.getElementById("ingreso").classList.add("ocultar");
   document.getElementById("cifrado").classList.remove("ocultar");
@@ -50,6 +52,9 @@ clickCifrar.addEventListener("click", ()=>{
 
 //de ingreso a cifrado para descifrar
 clickDescifrar.addEventListener("click", ()=>{
+
+  smensaje2.value=cipher.decode(coffset2.value,smensaje2.value);
+
   document.getElementById("acceso").classList.add("ocultar");
   document.getElementById("ingreso").classList.add("ocultar");
   document.getElementById("cifrado").classList.remove("ocultar");

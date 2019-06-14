@@ -6,42 +6,40 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-             
-    <header><h2 class="titulo">Cipher Cesar</h2>
-    </header>
-    
-    <main>
+      <header><h2 class="titulo">Cipher Cesar</h2>
+      <header>
+<main>
+        <!--Primera página-->
         <div id="acceso" >
-              <h1>¡BIENVENIDO!</h1>
-                <img src="../imagenes/ingreso.jpg" alt="" width="350" height="350"/>
-                 <p>Ingresa la Contreseña:</p>
+              <h1 class="bienvenida">¡ B I E N V E N I D O !</h1>
+                <img src="../imagenes/ingreso.jpg" alt="" width="200" height="200"/>
+                 <p class="contraseña">Ingresa la Contraseña:</p>
                 <input id="clave" type="password" case placeholder="Ingresa aqui tu contraseña" maxlength="11"  value="LABORATORIA">
                 <br><br>
                 <button  type="button" id="btn">Ingresar</button>
         </div> 
-
+        <!--Segunda Página-->
         <div id="ingreso" class="ocultar">
-              <h3>Ingresar el texto:</h3>
-              <p><textarea id="mensaje1" name="texto1" placeholder="Ingresa el texto a cifrar o descifrar según sea el caso." cols="100" rows="20"></textarea></p>
-                  
-              <p>Elegir Opción:</p>
-                  <input type="number" id ="offset1" max="100" min="1" size="0.5"> <button type="button" id="cifrar"> Cifrar</button> 
-                  <input type="number" id ="offset2" max="100" min="1" size="0.5"> <button type="button" id="Descifrar"> Descifrar</button> 
+              <p class="ingretext">Ingresar el texto:</p>
+              <p><textarea id="mensaje1" class="texto1" name="texto1" placeholder="Ingresa el texto a cifrar o descifrar según sea el caso." cols="80" rows="15"></textarea></p>
+              <p class ="opcion">Elegir Opción:</p>
+                  <input class = "offset1" type="number" id ="offset1" max="100" min="1" size="0.5"> <button type="button" id="cifrar"> Cifrar</button> 
+                  <input class = "offset2" type="number" id ="offset2" max="100" min="1" size="0.5"> <button type="button" id="Descifrar"> Descifrar</button> 
         </div>
-
+        <!--Tercera página-->
         <div id="cifrado" class="ocultar">
-          <p>El Texto Cifrado es:</p>
-          <textarea id="mensaje2"name="texto2" placeholder="Aqui aparece el texto cifrado o descifrado según sea el caso." cols="100" rows="20"></textarea>
-              <br>
+          <p class="titcifra">El Texto Cifrado es:</p>
+          <textarea id="mensaje2"name="texto2" placeholder="Aqui aparece el texto cifrado o descifrado según sea el caso." cols="80" rows="15"></textarea>
+              <br><br>
               <p><button type="button" id="listo">Listo!</button></p>
         </div>
-
+        <!--Cuarta página-->
         <div id="final" class="ocultar">
-            <p>Gracias</p>
-            <img src="../imagenes/seguridad.jpg"/>
-            <p>Tu infromacion esta segura</p>
+            <p class="gracias">¡ Gracias !</p>
+            <img src="../imagenes/seguridad.jpg" width="250" height="250"/>
+            <p class = "segura">Tu declaración es Confidencial</p>
         </div>
-    </main>
+</main>
     
 <footer>
   <div id="pie">

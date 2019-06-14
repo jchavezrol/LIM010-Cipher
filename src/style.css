@@ -1,35 +1,62 @@
     /* Acá van tus reglas de estilo */
 body{                       
-    background-image:url( "../imagenes/fondo.jpg");
+    background-image:url( "../imagenes/justicia.jpg");
     background-size: cover; 
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-        text-align: center;
+    text-align: center;
 }
 .titulo{
-        color: white;
+        color: blue;
         font: outline;
         text-align: left;
         font-family: sans-serif;
-        font-size: smaller;
+        font-size: 12px;
 }
 #acceso{
     text-align: center;
     color: white;     
     font-family: 150% sans-serif;
+    font-size: 15px; 
+}
+.contraseña{
+    color: blue;     
+    font-family: 150% sans-serif;
+    font-size: 25px;
 }
 #ingreso{
     text-align: center;
     color: white;
     font-family: 150% sans-serif;
+    font-size: 20px;
+}
+.opcion{
+    font-family: 150 % sans-serif;
+    font-size: 25px;
 }
 #cifrado{
     color: white;
     font-family: 150% sans-serif;
+    font-size: 25px;
+}
+.offset1{
+    width: 35px;
+    height: 15px;
+}
+.offset2{
+    width: 35px;
+    height: 15px;
+}
+.gracias{
+    color: white;
+    font-family: 150 % sans-serif;
+    font-size: 35px;
+}
+.segura{
+    color:blue;
+    font-family: 150 % sans-serif;
+    font-size: 35px;
 }
 #pie{
-    color: white;
+    color: black;
     font-family: 150 % sans-serif;
     
 }
@@ -37,7 +64,10 @@ body{
     display: none;
 }
 #opciones{
-    color: white;
+    color: blue
     font-family: sans-serif;
-
+}
+.texto1{
+    font-family: 150% sans-serif;
+    font-size: 15px;
 }
