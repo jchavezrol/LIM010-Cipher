@@ -18,5 +18,19 @@
     "mocha": "^5.1.1",
     "nyc": "^13.1.0",
     "opener": "^1.4.3"
-  }
+  },
+  "description": "El progrma permite obtener la declaracion de un testigo protegido y su Abogado, permitiendo asi que el juicio continue y mantener la condicion del testigo.\r ## Investigacion UX:\r - Los usuarios del programa *CONFIDENCIAL* son Abogados y testigos protegidos",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchavezrol/LIM010-Cipher.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/jchavezrol/LIM010-Cipher/issues"
+  },
+  "homepage": "https://github.com/jchavezrol/LIM010-Cipher#readme"
 }

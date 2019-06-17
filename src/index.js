@@ -4,7 +4,7 @@ const clickBtn = document.getElementById("btn");
 //tomando lo que ingresa el usuario 
 const clave = document.getElementById("clave");
 
-const clickCifrado = document.getElementById("cifrado");
+//const clickCifrado = document.getElementById("cifrado");
 
 const clickCifrar = document.getElementById("cifrar");
 const clickDescifrar = document.getElementById("Descifrar");
@@ -20,11 +20,11 @@ clickBtn.addEventListener("click", ()=>{
       document.getElementById("ingreso").classList.remove("ocultar");
   
     } else if(intentos ==0){
+      let btn ='';
       alert("Ya utilizaste todos tus intentos, en este momento, no podrás seguir.");
-      btn.disabled="disabled";
+      btn.disabled ="disabled";
      }
-    
-     else{
+      else{
         alert("Clave incorrecta, te quedan "+ intentos + " intentos");
         intentos= intentos-1;
       }
@@ -71,9 +71,14 @@ clicklisto.addEventListener("click", ()=>{
   document.getElementById("final").classList.remove("ocultar");
 })
 
+const clickregresar = document.getElementById("regresar");
 
-
-
+clickregresar.addEventListener("click", () => {
+  document.getElementById("acceso").classList.add("ocultar");
+  document.getElementById("ingreso").classList.remove("ocultar");
+  document.getElementById("cifrado").classList.add("ocultar");
+  document.getElementById("final").classList.add("ocultar");
+})
 
 
 
