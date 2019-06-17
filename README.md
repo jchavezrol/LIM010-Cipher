@@ -4,7 +4,7 @@ El progrma permite obtener la declaracion de un testigo protegido y su Abogado, 
 
 ## Imagen final del Proyecto "*CONFIDENCIAL*"
 
-![final1.png][1]  ![final2.png][2] ![final3.png][3]  ![final4.png][4]
+![final1.png][final1.png]  ![final2.png][final2.png] ![final3.png][final3.png]  ![final4.png][final4.png]
 
  [1]: imagenes/final1.png
  [2]: imagenes/final2.png
