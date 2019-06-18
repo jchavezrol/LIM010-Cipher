@@ -53,8 +53,6 @@ clickCifrar.addEventListener("click", ()=>{
 //de ingreso a cifrado para descifrar
 //además se hace ek descifrado
 clickDescifrar.addEventListener("click", ()=>{
-
-
   smensaje2.value=cipher.decode(coffset2.value,smensaje1.value);
 
   document.getElementById("acceso").classList.add("ocultar");
@@ -71,6 +69,7 @@ clicklisto.addEventListener("click", ()=>{
   document.getElementById("final").classList.remove("ocultar");
 })
 
+// se declara variable para boton regresar 
 const clickregresar = document.getElementById("regresar");
 
 clickregresar.addEventListener("click", () => {
@@ -78,7 +77,10 @@ clickregresar.addEventListener("click", () => {
   document.getElementById("ingreso").classList.remove("ocultar");
   document.getElementById("cifrado").classList.add("ocultar");
   document.getElementById("final").classList.add("ocultar");
+  // Se limpian los valores para textarea1 y offset1
+  document.getElementById ("mensaje1").value = "";
+  document.getElementById ("offset1").value = "";
+  document.getElementById ("offset2").value = "";
 })
-
 
 
